@@ -1,0 +1,26 @@
+{
+  "name": "primer-entregable",
+  "version": "1.0.0",
+  "description": "primer entregable nodejs de avalith hasta 22 de agosto 2022",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echeverriaalex/Avalith-primer-entregable.git"
+  },
+  "author": "Alex Nahuel Echeverria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/echeverriaalex/Avalith-primer-entregable/issues"
+  },
+  "homepage": "https://github.com/echeverriaalex/Avalith-primer-entregable#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

@@ -19,19 +19,18 @@ let getBigCarts = async(req, res) =>{
             u = usersList.find(user => user.username),
             {
                 user: `${u.username} ${u.name.firstname} ${u.name.lastname}`,
-                //user0: u1['username'],
                 //user1: usersList.filter(user => user.id == cart.userId).map(user => user.username),
                 //user2: usersList.filter(user => user.id == cart.userId),
                 //user: users.getUserById(cart.userId),
                 /*
-                user:                                 
+                user3:                                 
                     usersList.filter(user => {
                     if(user.id == cart.userId){
                             u =  users.getUserById(cart.userId);
                             console.log(`User : ${u}`);
                             return u;
                     }
-                })
+                }),
                 */
                 cart
             }));
